@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Agreement</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+       <form action="/action.php">
+        <h1>Loan Agreement</h1>
+
+        <div class="card">
+            <h3>Borrower's Information</h3>        
+            <div class="input-group">
+                <h5>Name</h5>
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="Last Name">  
+            </div>
+            <div class="input-group">
+                <h5>Address</h5>
+                <input type="text" placeholder="Street Address">
+            </div>
+            <div class="input-group">
+                <h5>Date of Birth</h5>
+                <input type="date" placeholder="Date of Birth">
+            </div>
+            <div class="input-group">
+                <h5>Email</h5>
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="input-group">
+                <h5>Phone Number</h5>
+                <input type="number" placeholder="Phone Number">
+            </div>
+        </div>
+
+        <div class="card">
+            <h3>Lender's Information</h3>  
+            <div class="input-group">
+                <h5>Name</h5>
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="Last Name">  
+            </div>
+            <div class="input-group">
+                <h5>Phone Number</h5>
+                <input type="number" placeholder="Phone Number">
+            </div>
+            <div class="input-group">
+                <h5>Bank Account</h5>
+                <input type="number" placeholder="Bank Account">
+            </div>
+            <div class="input-group">
+                <h5>Address</h5>
+                <input type="text" placeholder="Street Address">
+            </div>
+        </div>
+
+        <div class="card">
+            <h3>Loan Information</h3>     
+            <div class="input-group">
+                <h5>Start Date - First Payment</h5>
+                <input type="date">
+            </div>
+            <div class="input-group">
+                <h5>End Date - Last Payment</h5>
+                <input type="date">
+            </div>
+
+            <div class="input-group">
+                <h5> Amount (First - payment) </h5>
+                <input type="number" placeholder="payment">
+            </div>
+
+            <div class="input-group">
+                <h5> Amount (Last - payment) </h5>
+                <input type="number" placeholder="payment">
+            </div>
+
+            <div class="input-group">
+                <h5>Payment Method</h5>
+                <label for="bkash">
+                    <input type="radio" value="Bkash" name="payment" id="bkash"> Bkash
+                </label>
+                <label for="nogod">
+                    <input type="radio" value="Nogod" name="payment" id="nogod"> Nogod
+                </label>
+                <label for="rocket">
+                    <input type="radio" value="Rocket" name="payment" id="rocket"> Rocket
+                </label>
+                <label for="paypal">
+                    <input type="radio" value="PayPal" name="payment" id="paypal"> PayPal
+                </label>
+            </div>
+        </div>
+
+        <div class="submit">
+            <input type="submit" value="Submit">
+        </div>
+
+       </form>
+    </div>
+
+    <div class="footer">
+        <footer>Loan Agreement Form</footer>
+    </div>
+
+</body>
+</html>
